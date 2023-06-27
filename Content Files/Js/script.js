@@ -1,12 +1,12 @@
 var button = document.getElementById('right1');
       button.onclick = function () {
-         var container = document.getElementById('columnmain1');
+         var container = document.getElementById('ott-releases');
          sideScroll(container, 'right', 5, 300, 5);
       };
 
       var back = document.getElementById('left1');
       back.onclick = function () {
-         var container = document.getElementById('columnmain1');
+         var container = document.getElementById('ott-releases');
          sideScroll(container, 'left', 5, 300, 5);
       };
 
@@ -32,13 +32,13 @@ var button = document.getElementById('right1');
  
       var button = document.getElementById('right2');
       button.onclick = function () {
-         var container = document.getElementById('columnmain2');
+         var container = document.getElementById('coming-soon');
          sideScroll(container, 'right', 5, 300, 5);
       };
 
       var back = document.getElementById('left2');
       back.onclick = function () {
-         var container = document.getElementById('columnmain2');
+         var container = document.getElementById('coming-soon');
          sideScroll(container, 'left', 5, 300, 5);
       };
 
